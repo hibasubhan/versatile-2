@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Food Restaurant</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <header>
+
+
+        <nav>
+
+            <div class="logo">
+                FoodHub
+            </div>
+
+            <ul id="nav-links">
+
+                <li><a href="#">Home</a></li>
+
+                <li><a href="menu.html">Menu</a></li>
+
+                <li class="dropdown">
+
+                    <a href="#">Categories <i class="fa-solid fa-angle-down"></i></a>
+
+                    <ul class="dropdown-menu">
+
+                        <li><a href="tikka.html">Tikka</a></li>
+                        <li><a href="biryani1.html">Biryani</a></li>
+                        <li><a href="apetizer1.html">Appetizer</a></li>
+                        <li><a href="fish.html">Fish</a></li>
+                      
+
+                    </ul>
+
+                </li>
+
+                <li><a href="contact.html">Contact</a></li>
+
+
+
+                
+            </ul>
+
+
+            <li>
+                    <a href="#" id="cart-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span id="cart-count">0</span>
+                    </a>
+                </li>
+  <div class="hamburger" id="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+
+        </nav>
+
+
+        <div class="hero">
+
+
+            <video autoplay muted loop>
+
+                <source src="./assets/Unconfirmed 433241.crdownload ">
+
+            </video>
+
+            <div class="overlay">
+
+                <h1>Welcome To FoodHub</h1>
+
+                <p>Fresh Food | Best Taste | Fast Delivery</p>
+
+                <a href="#" class="btn">Order Now</a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <section class="categories">
+
+        <h2>Our Categories</h2>
+
+        <div class="cata">
+            <a href="tikka.html" class="category-link">
+
+                <div class="card">
+
+
+                    <img src="./assets/haleem.jpg" alt="">
+
+                    <h3>Tikka</h3>
+
+                    <p>Juicy BBQ Chicken Tikka with traditional spices.</p>
+
+                </div>
+            </a>
+
+            <a href="biryani.html" class="category-link">
+                <div class="card">
+
+
+                    <img src="assets/tikka.jpg" alt="">
+
+                    <h3>Biryani</h3>
+
+                    <p>Hot & Spicy Chicken Biryani.</p>
+
+                </div>
+            </a>
+            <a href="apetizer1.html" class="category-link">
+                <div class="card">
+
+
+                    <img src="./assets/appitizer.jpg" alt="">
+
+                    <h3>Appetizer</h3>
+
+                    <p>Crispy starters served fresh.</p>
+
+                </div>
+            </a>
+            <a href="fish.html" class="category-link">
+                <div class="card">
+
+                    <img src="./assets/biryani.jpg" alt="">
+
+                    <h3>Fish</h3>
+
+                    <p>Traditional Fish with rich flavour.</p>
+
+                </div>
+            </a>
+
+        </div>
+
+
+        <!-- Banner -->
+
+        <section class="banner">
+
+            <div class="banner-text">
+                <h1>COMBOS</h1>
+            </div>
+
+
+
+            <div class="banner-img">
+                <img src="./assets/combos.jpg" alt="">
+            </div>
+
+        </section>
+
+
+
+        <!-- Cards -->
+
+        <div class="summ">
+
+
+            <div class="card">
+
+                <img src="./assets/chicken p s.jpg">
+
+                <div class="content">
+
+                    <h2>Combo 1</h2>
+
+                    <p>Chicken Tikka with Paratha & Salad</p>
+
+                </div>
+
+
+
+                <div class="price-box">
+
+                    <div class="price">
+                        <span class="unit-price"> Rs.1200</span>
+                    </div>
+
+                    <div class="total">
+                        . <span class="total-price">Total: Rs1200</span>
+                    </div>
+
+                    <div class="cart-controls">
+
+                        <button class="minus">-</button>
+
+                        <span class="quantity">1</span>
+
+                        <button class="plus">+</button>
+
+
+                        <button class="cart-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            Add To Cart
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+            <div class="card">
+
+                <img src="./assets/roll.jpg">
+
+                <div class="content">
+
+                    <h2>Combo 2</h2>
+
+                    <p>Chicken Roll with Fries</p>
+
+
+
+                </div>
+
+
+                <div class="price-box">
+
+                    <div class="price">
+                        <span class="unit-price"> Rs.1200</span>
+                    </div>
+
+                    <div class="total">
+                        <span class="total-price">Total: Rs.1200</span>
+                    </div>
+
+                    <div class="cart-controls">
+
+                        <button class="minus">-</button>
+
+                        <span class="quantity">1</span>
+
+                        <button class="plus">+</button>
+
+
+                        <button class="cart-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            Add To Cart
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="card">
+
+                <img src="./assets/club sandwitches.jpg">
+
+                <div class="content">
+
+                    <h2>Combo 3</h2>
+
+                    <p>Club Sandwich with Fries</p>
+
+
+
+                </div>
+
+
+                <div class="price-box">
+
+                    <div class="price">
+                        <span class="unit-price"> Rs.1200</span>
+                    </div>
+
+                    <div class="total">
+                        <span class="total-price"> Total: Rs.1200</span>
+                    </div>
+
+                    <div class="cart-controls">
+
+                        <button class="minus">-</button>
+
+                        <span class="quantity">1</span>
+
+                        <button class="plus">+</button>
+
+                        <button class="cart-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            Add To Cart
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="card">
+
+                <img src="./assets/chick burger d.jpg">
+
+                <div class="content">
+
+                    <h2>Combo 4</h2>
+
+                    <p>Chicken Burger Combo</p>
+
+
+                </div>
+
+
+
+
+                <div class="price-box">
+
+                    <div class="price">
+                        <span class="unit-price"> Rs.1200</span>
+                    </div>
+
+                    <div class="total">
+                        <span class="total-price"> Total: Rs.1200</span>
+                    </div>
+
+                    <div class="cart-controls">
+
+                        <button class="minus">-</button>
+
+                        <span class="quantity">1</span>
+
+                        <button class="plus">+</button>
+
+                        <button class="cart-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            Add To Cart
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="card">
+
+                <img src="./assets/c burger f d.jpg">
+
+                <div class="content">
+
+                    <h2>Combo 5</h2>
+
+                    <p>Chicken Burger Fries & Drink</p>
+
+
+
+                </div>
+
+
+
+
+                <div class="price-box">
+
+                    <div class="price">
+                        <span class="unit-price">Rs.1200</span>
+                    </div>
+
+                    <div class="total">
+                        <span class="total-price"> Total: Rs.1200</span>
+                    </div>
+
+                    <div class="cart-controls">
+
+                        <button class="minus">-</button>
+
+                        <span class="quantity">1</span>
+
+                        <button class="plus">+</button>
+
+                        <button class="cart-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            Add To Cart
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="card">
+
+                <img src="./assets/c burger f d.jpg">
+
+                <div class="content">
+
+                    <h2>Combo 6</h2>
+
+                    <p>Crispy Burger with Drink</p>
+
+
+
+
+
+                </div>
+
+
+                <div class="price-box">
+
+                    <div class="price">
+                        <span class="unit-price">Rs.1200</span>
+                    </div>
+
+                    <div class="total">
+                        <span class="total-price">Total: Rs.1200</span>
+                    </div>
+
+                    <div class="cart-controls">
+
+                        <button class="minus">-</button>
+
+                        <span class="quantity">1</span>
+
+                        <button class="plus">+</button>
+
+                        <button class="cart-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            Add To Cart
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+    <div class="cart-sidebar">
+
+        <div class="cart-header">
+            <h2>Your Cart</h2>
+            <button id="close-cart">&times;</button>
+        </div>
+
+        <div id="cart-items">
+
+        </div>
+
+        <div class="cart-footer">
+
+            <h3>
+                Total :
+                Rs.
+                <span id="grand-total">0</span>
+            </h3>
+
+            <button id="checkout">
+                Checkout
+            </button>
+
+        </div>
+
+    </div>
+    <footer>
+
+        <div class="footer-container">
+
+            <div class="footer-box">
+
+                <h2>FoodHub</h2>
+
+                <p>
+                    We serve fresh and delicious food with the best quality.
+                    Taste that you'll always remember.
+                </p>
+
+            </div>
+
+            <div class="footer-box">
+
+                <h3>Quick Links</h3>
+
+
+                <a href="#">About Us</a>
+                <a href="menu.html">Menu</a>
+                <a href="contact.html">Contact Us</a>
+
+            </div>
+
+            <div class="footer-box">
+
+                <h3>Contact Us</h3>
+
+                <p><i class="fa-solid fa-location-dot"></i> Lahore, Pakistan</p>
+
+                <p><i class="fa-solid fa-phone"></i> +92 300 1234567</p>
+
+                <p><i class="fa-solid fa-envelope"></i> foodhub@gmail.com</p>
+
+            </div>
+
+            <div class="footer-box">
+
+                <h3>Follow Us</h3>
+
+                <div class="social">
+
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <p class="copy">
+            © 2026 FoodHub | Zai Khan.
+        </p>
+
+    </footer>
+    <!-- <div class="cart-sidebar">
+
+    <span id="close-cart">&times;</span>
+
+    <h2>Your Cart</h2>
+
+    <div id="cart-items"></div>
+
+    <h3>
+        Total: Rs. <span id="grand-total">0</span>
+    </h3>
+
+    <button id="checkout">Checkout</button>
+
+</div>
+ -->
+
+    <script>
+        const hamburger = document.getElementById("hamburger");
+        const navLinks = document.getElementById("nav-links");
+
+        hamburger.addEventListener("click", function () {
+            navLinks.classList.toggle("active");
+        });
+
+
+        const cartItems = document.getElementById("cart-items");
+
+        const grandTotal = document.getElementById("grand-total");
+
+        const cartCount = document.getElementById("cart-count");
+
+        let total = 0;
+
+        let count = 0;
+        let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+        document.querySelectorAll(".summ .card").forEach(function (card) {
+            const productName = card.querySelector("h2").textContent;
+
+            const addBtn = card.querySelector(".cart-btn");
+
+            let qty = 1;
+
+            const unitPrice = parseInt(card.querySelector(".unit-price").textContent);
+
+            const qtyText = card.querySelector(".quantity");
+
+            const totalText = card.querySelector(".total-price");
+
+            const plus = card.querySelector(".plus");
+
+            const minus = card.querySelector(".minus");
+
+            plus.addEventListener("click", function () {
+
+                qty++;
+
+                qtyText.textContent = qty;
+
+                totalText.textContent = qty * unitPrice;
+
+            });
+
+            minus.addEventListener("click", function () {
+
+                if (qty > 1) {
+
+                    qty--;
+
+                    qtyText.textContent = qty;
+
+                    totalText.textContent = qty * unitPrice;
+
+                }
+
+            });
+
+            addBtn.addEventListener("click", function () {
+
+                const existingItem = cart.find(function (item) {
+                    return item.name === productName;
+                });
+
+                if (existingItem) {
+
+                    existingItem.qty += qty;
+
+                } else {
+
+                    cart.push({
+                        name: productName,
+                        price: unitPrice,
+                        qty: qty
+                    });
+
+                }
+
+                renderCart();
+
+            });
+        });
+
+
+
+
+
+
+        const cartIcon = document.getElementById("cart-icon");
+
+        const cartSidebar = document.querySelector(".cart-sidebar");
+
+        const closeCart = document.getElementById("close-cart");
+
+        cartIcon.onclick = function () {
+
+            cartSidebar.classList.add("active");
+
+        }
+
+        closeCart.onclick = function () {
+
+            cartSidebar.classList.remove("active");
+
+        }
+        renderCart();
+
+        function renderCart() {
+
+            cartItems.innerHTML = "";
+
+            total = 0;
+            count = 0;
+
+            cart.forEach(function (item) {
+
+                total += item.price * item.qty;
+
+                count += item.qty;
+
+                cartItems.innerHTML += `
+
+<div class="cart-item">
+
+    <h4>${item.name}</h4>
+
+    <div class="cart-qty">
+
+        <button class="decrease" data-name="${item.name}">-</button>
+
+        <span>${item.qty}</span>
+
+        <button class="increase" data-name="${item.name}">+</button>
+
+    </div>
+
+    <p>Rs. ${item.qty * item.price}</p>
+
+    <button class="remove-btn" data-name="${item.name}">
+        Remove
+    </button>
+
+    <hr>
+
+</div>
+
+`;
+            });
+
+            if (cart.length === 0) {
+
+                cartItems.innerHTML = "<h3>Your Cart is Empty</h3>";
+
+            }
+
+            grandTotal.textContent = total;
+
+            cartCount.textContent = count;
+
+            localStorage.setItem("cart", JSON.stringify(cart));
+
+            document.querySelectorAll(".remove-btn").forEach(function (btn) {
+
+                btn.addEventListener("click", function () {
+
+                    const name = this.dataset.name;
+
+                    cart = cart.filter(function (item) {
+                        return item.name !== name;
+                    });
+
+                    renderCart();
+
+                });
+
+            });
+
+
+            document.querySelectorAll(".increase").forEach(function (btn) {
+
+                btn.addEventListener("click", function () {
+
+                    const name = this.dataset.name;
+
+                    const item = cart.find(function (p) {
+                        return p.name === name;
+                    });
+
+                    item.qty++;
+
+                    renderCart();
+
+                });
+
+            });
+
+            document.querySelectorAll(".decrease").forEach(function (btn) {
+
+                btn.addEventListener("click", function () {
+
+                    const name = this.dataset.name;
+
+                    const item = cart.find(function (p) {
+                        return p.name === name;
+                    });
+
+                    if (item.qty > 1) {
+
+                        item.qty--;
+
+                    } else {
+
+                        cart = cart.filter(function (p) {
+                            return p.name !== name;
+                        });
+
+                    }
+
+                    renderCart();
+
+                });
+
+            });
+
+
+
+        }
+
+
+
+        renderCart();
+
+        const checkoutBtn = document.getElementById("checkout");
+
+        checkoutBtn.addEventListener("click", function () {
+
+            if (cart.length === 0) {
+                alert("Your cart is empty!");
+                return;
+            }
+
+            window.location.href = "checkout1.html";
+        });
+
+
+        const topBtn = document.getElementById("topBtn");
+
+        window.onscroll = function () {
+
+            if (window.scrollY > 300) {
+
+                topBtn.style.display = "block";
+
+            } else {
+
+                topBtn.style.display = "none";
+
+            }
+
+        }
+
+        topBtn.onclick = function () {
+
+            window.scrollTo({
+
+                top: 0,
+
+                behavior: "smooth"
+
+            });
+
+        }
+    </script>
+
+</body>
+
+</html>
